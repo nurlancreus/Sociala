@@ -1,10 +1,18 @@
 @mixin rounded-icon($size) {
-    width: $size;
-    height: $size;
-    line-height: $size;
-    border-radius: $size;
+  width: $size;
+  height: $size;
+  line-height: $size;
+  border-radius: $size;
 }
 
 @mixin conf-del-btn {
-    border-radius: 1.875rem;
+  border-radius: 1.875rem;
+}
+
+@mixin line-limit($limit) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $limit; /* number of lines to show */
+  line-clamp: $limit;
+  -webkit-box-orient: vertical;
 }

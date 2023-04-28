@@ -28,6 +28,10 @@
     color: #FE9431 !important;
 }
 
+.text-grey-100 {
+    color: #f8f9fa !important;
+}
+
 .text-grey-400 {
     color: #ced4da !important;
 }
@@ -76,6 +80,14 @@
 
 .bg-orange {
     background-color: #FE9431 !important;
+}
+
+.bg-lightblue {
+    background-color: #e8f1fa !important;
+}
+
+.bg-cyan {
+    background-color: #00a9a8 !important;
 }
 
 .bg-blue-gradiant {
@@ -149,6 +161,10 @@
 }
 
 // Font Weight
+
+.fw-300 {
+    font-weight: 300;
+}
 
 .fw-500 {
     font-weight: 500;

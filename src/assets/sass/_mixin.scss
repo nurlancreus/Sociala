@@ -1,0 +1,10 @@
+@mixin rounded-icon($size) {
+    width: $size;
+    height: $size;
+    line-height: $size;
+    border-radius: $size;
+}
+
+@mixin conf-del-btn {
+    border-radius: 1.875rem;
+}

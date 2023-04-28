@@ -20,9 +20,8 @@
         }
 
         .shop-now__btn {
-            line-height: 1.875rem;
             min-width: 9.375rem;
-            @extend .trending-span;
+            @include btn-witdh(1.875rem);
         }
 
         .carousel__img-wrapper {
@@ -43,5 +42,24 @@
 
     .carousel-control-next > .carousel-control {
         right: 1.25rem;
+    }
+}
+
+// Shopping items 
+
+.shopping-items {
+    .load-more-btn {
+        @include btn-witdh(2rem);
+    }
+}
+
+.shopping-items__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 1.875rem;
+    row-gap: 24px;
+
+    .si__img-wrapper {
+        height: 18.75rem;
     }
 }

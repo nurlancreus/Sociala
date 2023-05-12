@@ -28,10 +28,6 @@ gulp.task("bundleCss", () => {
     .src(
       [
         source + "/libs/bootstrap/css/bootstrap.min.css",
-        source + "/libs/owl/owl.carousel.min.css",
-        source + "/libs/owl/owl.theme.default.min.css",
-        source + "/libs/wow/animate.min.css",
-        source + "/libs/swiper/swiper-bundle.min.css",
         // plugin`s css
       ],
       { allowEmpty: true }

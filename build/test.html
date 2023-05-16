@@ -1,0 +1,168 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="main-header bg-white shadow-xs">
+        <div class="main-header__container d-flex align-items-center">
+            <div class="main-logo"><a href="index.html" class="text-decoration-none d-flex align-items-center"><i
+                        class="fa-solid fa-bolt text-success ms-0 me-3"></i><span
+                        class="brand-span font-xxl fw-600">Sociala.</span></a></div>
+            <div class="search-bar">
+                <form action="">
+                    <div class="search__wrapper d-flex align-items-center overflow-hidden">
+                        <button type="submit"
+                            class="header__submit-btn bg-grey border-0 px-2 d-flex align-items-center justify-content-center"><i
+                                class="fa-solid text-grey-400 font-sm fa-magnifying-glass"></i></button>
+                        <input type="search"
+                            class="header__search-bar form-control bg-grey py-2 rounded-0 font-xssss border-0"
+                            name="search-bar" id="search-bar" placeholder="Start typing to search...">
+                    </div>
+                </form>
+            </div>
+            <nav class="header__nav ms-3" aria-label="primary">
+                <ul class="header__nav__ul d-flex align-items-center list-unstyled m-0">
+                    <li aria-current="page"><a href="index.html" class="p-2" aria-label="home"><i
+                                class="fa-solid fa-house font-lg bg-greylight text-grey-500 text-center"></i></a></li>
+                    <li><a href="stories.html" class="p-2" aria-label="stories"><i
+                                class="fa-solid fa-bolt font-lg bg-greylight text-grey-500 text-center"></i></a></li>
+                    <li><a href="" class="p-2" aria-label="videos"><i
+                                class="fa-solid fa-video font-lg bg-greylight text-grey-500 text-center"></i></a></li>
+                    <li><a href="test.html" class="p-2" aria-label="groups"><i
+                                class="fa-solid fa-user font-lg bg-greylight text-grey-500 text-center"></i></a></li>
+                    <li><a href="shop.html" class="p-2" aria-label="shopping"><i
+                                class="fa-sharp fa-solid fa-bag-shopping font-lg bg-greylight text-grey-500 text-center"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="ms-auto">
+                <ul class="header__shortcuts list-unstyled d-flex align-items-center m-0">
+                    <li><button class="shortcut border-0 p-2 ms-3"><i
+                                class="fa-solid fa-bell text-current font-xl"></i></button></li>
+                    <li><button class="shortcut border-0 p-2 ms-3"><i
+                                class="fa-solid fa-message text-current font-xl"></i></button></li>
+                    <li><button class="shortcut border-0 p-2 ms-3"><i
+                                class="fa-solid fa-moon text-current font-xl"></i></button></li>
+                    <li>
+                        <span class="pp-icon d-inline-block overflow-hidden ms-3">
+                            <a href=""><img src="http://sociala.uitheme.net/assets/images/profile-4.png" class="w-100 h-100"
+                                    alt=""></a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <aside class="left-side-bar position-fixed start-0 font-open">
+            <nav class="navigation-left" aria-label="side">
+                <div class="nav__content">
+                    <div class="news-feeds bg-white my-2 pt-3 pb-1 shadow-xss rounded-4">
+                        <div class="nav__caption text-grey-500 font-xssss fw-600 mb-1"><span>News Feed</span></div>
+                        <ul class="news-feeds__ul list-unstyled m-0">
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid text-center text-white fa-tv bg-blue-gradiant"></i> <span class="side-bar__text text-capitalize ms-3">Newsfeed</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid text-center text-white fa-award bg-red-gradiant"></i> <span class="side-bar__text text-capitalize ms-3">Badges</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid text-center text-white fa-globe bg-gold-gradiant"></i> <span class="side-bar__text text-capitalize ms-3">Explore Stories</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid text-center text-white fa-bolt bg-mini-gradiant"></i> <span class="side-bar__text text-capitalize ms-3">Popular Groups</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid text-center text-white fa-user bg-primary-gradiant"></i> <span class="side-bar__text text-capitalize ms-3">Author profile</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="more-pages bg-white my-2 pt-3 pb-1 shadow-xss rounded-4">
+                        <div class="nav__caption text-grey-500 font-xssss fw-600 mb-1"><span>More Pages</span></div>
+                        <ul class="more-pages__ul list-unstyled m-0">
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid fa-inbox font-xl text-current"></i><span class="side-bar__text text-capitalize ms-3">Email Box</span> <span class="side-warning-span ms-auto bg-orange d-inline-block text-white">584</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid fa-house font-xl text-current"></i><span class="side-bar__text text-capitalize ms-3">Near Hotel</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid fa-location-dot font-xl text-current"></i><span class="side-bar__text text-capitalize ms-3">Latest Event</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-brands fa-youtube font-xl text-current"></i><span class="side-bar__text text-capitalize ms-3">Live Stream</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="settings bg-white my-2 pt-3 pb-1 shadow-xss rounded-4">
+                        <div class="nav__caption text-grey-500 font-xssss fw-600 mb-1"><span>Account</span></div>
+                        <ul class="more-pages__ul list-unstyled m-0">
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid fa-gear font-sm"></i><span class="side-bar__text text-capitalize ms-3">Settings</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid fa-clock font-sm"></i><span class="side-bar__text text-capitalize ms-3">Analytics</span></a></li>
+                            <li><a href="" class="text-decoration-none d-flex align-items-center fw-600 nowrap"><i class="fa-solid fa-message font-sm"></i><span class="side-bar__text text-capitalize ms-3">Chats</span> <span class="side-warning-span ms-auto bg-orange d-inline-block text-white">23</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+        <aside class="right-side end-0 position-fixed mt-2 end-0">
+            <div class="chat-content bg-white shadow-xss rounded-4 ps-4 pe-3 pt-4 pb-4">
+                <div class="contacts">
+                    <div class="nav__caption text-grey-500 font-xsssss fw-700 text-uppercase mb-2"><span>Contacts</span></div>
+                    <ul class="contacts__ul list-unstyled m-0">
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-8.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-online"></span></li>
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-7.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-online"></span></li>
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-6.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-online"></span></li>
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-5.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-offline"></span></li>
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-4.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-recent"></span></li>
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-3.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-online"></span></li>
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-2.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-offline"></span></li>
+                        <li class="contact d-flex align-items-center py-2">
+                            <div class="contact__pp__wrapper overflow-hidden me-2"><img src="http://sociala.uitheme.net/assets/images/user-1.png" alt="Contact Profile Pic" class="contact__pp w-100 h-100"></div>
+                            <span class="contact__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="contact__condition dot ms-auto bg-recent"></span></li>
+                    </ul>
+                </div>
+                <div class="groups py-4">
+                    <div class="nav__caption text-grey-500 font-xsssss fw-700 text-uppercase mb-2"><span>Groups</span></div>
+                    <ul class="groups__ul list-unstyled m-0">
+                        <li class="group d-flex align-items-center py-2">
+                            <div class="group__pp__wrapper overflow-hidden text-white fw-700 me-3 text-uppercase text-center bg-primary-gradiant">Fe</div>
+                            <span class="group__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="group__condition dot ms-auto bg-online"></span></li>
+                        <li class="group d-flex align-items-center py-2">
+                            <div class="group__pp__wrapper overflow-hidden text-white fw-700 me-3 text-uppercase text-center bg-gold-gradiant">Gc</div>
+                            <span class="group__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="group__condition dot ms-auto bg-online"></span></li>
+                        <li class="group d-flex align-items-center py-2">
+                            <div class="group__pp__wrapper overflow-hidden text-white fw-700 me-3 text-uppercase text-center bg-mini-gradiant">Tb</div>
+                            <span class="group__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="group__condition dot ms-auto bg-online"></span></li>
+                    </ul>
+                </div>
+                <div class="pages">
+                    <div class="nav__caption text-grey-500 font-xsssss fw-700 text-uppercase mb-2"><span>Pages</span></div>
+                    <ul class="pages__ul list-unstyled m-0">
+                        <li class="page d-flex align-items-center py-2">
+                            <div class="page__pp__wrapper overflow-hidden text-white fw-700 me-3 text-uppercase text-center bg-primary-gradiant">Ad</div>
+                            <span class="page__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="page__condition dot ms-auto bg-online"></span></li>
+                        <li class="page d-flex align-items-center py-2">
+                            <div class="page__pp__wrapper overflow-hidden text-white fw-700 me-3 text-uppercase text-center bg-gold-gradiant">Gh</div>
+                            <span class="page__name text-grey-600 font-xssss fw-700">Lorem, ipsum.</span><span class="page__condition dot ms-auto bg-online"></span></li>
+                    </ul>
+                </div>
+            </div> 
+        </aside>
+        <div class="main-container container">
+
+            
+        </div>
+
+    </main>
+    
+</body>
+
+</html>
